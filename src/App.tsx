@@ -8,7 +8,6 @@ function App() {
       <GlobalStyle />
       <Layout>
         <HomePage />
-        <HomePage />
       </Layout>
     </>
   );

@@ -11,13 +11,11 @@ export const HeaderSection = styled.section`
   padding: 8px;
   background: ${(props) => props.color};
   transition: 0.3s ease-in;
-
-  
- 
+  z-index: 1;
 `;
 
 export const NavBar = styled.div`
-  color: ${(props) => props.color};
+  color: #fff;
 
   & > ul {
     display: flex;
@@ -32,9 +30,9 @@ export const LiStyled = styled.li`
   border-bottom: 2px solid transparent;
 
   &:hover {
-    color: ${(props) => props.color};
+    color: #60bb46;
     cursor: pointer;
-    border-bottom: 2px solid ${(props) => props.color};
+    border-bottom: 2px solid #60bb46;
     transition: 0.2s ease-in;
   }
 `;

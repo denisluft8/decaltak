@@ -13,6 +13,6 @@ margin: 0;
     height: 100vh;
 }
 body {
-   background: #020202;
+  background-color: #121214;
   font-family: 'Source Code Pro', monospace;
 }`;

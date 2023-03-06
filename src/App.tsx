@@ -1,14 +1,17 @@
-import { HomePage } from "./Pages"
-import { GlobalStyle } from "./styles/globalStyles"
+import { Layout } from "./Layouts";
+import { HomePage } from "./Pages";
+import { GlobalStyle } from "./styles/globalStyles";
 
 function App() {
-
   return (
     <>
-      <GlobalStyle/>
-      <HomePage/>
+      <GlobalStyle />
+      <Layout>
+        <HomePage />
+        <HomePage />
+      </Layout>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

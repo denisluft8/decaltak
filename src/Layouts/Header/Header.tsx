@@ -17,17 +17,17 @@ export const Header = () => {
   window.addEventListener("scroll", changeColor);
 
   return (
-    <HeaderSection color={color ? " #00F000d9" : "transparent"}>
-      <LogoImg src={color ? logoinversa : logo} />
+    <HeaderSection color={color ? " #31422Bd9" : "transparent"}>
+      <LogoImg src={color ? logo : logo} />
       <NavBar color={color ? " #000" : "#fff"}>
         <ul>
-          <LiStyled color={color ? "#15290f" : "#60bb46"}>
+          <LiStyled>
             <a>SOBRE NÓS</a>
           </LiStyled>
-          <LiStyled color={color ? "#15290f" : "#60bb46"}>
+          <LiStyled>
             <a>TRABALHOS</a>
           </LiStyled>
-          <LiStyled color={color ? "#15290f" : "#60bb46"}>
+          <LiStyled>
             <a>CONTATO</a>
           </LiStyled>
         </ul>

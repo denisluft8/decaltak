@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Page = styled.section`
   align-items: center;
-  background-color:${(props) => (props.color ? props.color : "#121214")};
+  background:${(props) => (props.color ? props.color : "#121214")};
   display: flex;
   justify-content: center;
   padding-top: 70px;

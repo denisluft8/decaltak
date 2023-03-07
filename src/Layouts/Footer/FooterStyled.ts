@@ -17,18 +17,32 @@ export const FooterSec = styled.section`
     font-size: 18px;
     padding-left: 12px;
     text-align: center;
+    color: #e3e3e3;
+
+    @media (max-width: 500px) {
+      font-size: 12px;
+      width: 70%;
+    }
   }
 
   & > p {
     padding-right: 12px;
     text-align: end;
+    color: #e3e3e3;
 
     & > a {
       text-decoration: none;
-      color: #fff;
+      color: #e3e3e3;
 
       &:hover {
         color: #60bb46;
+      }
+    }
+    @media (max-width: 500px) {
+      font-size: 10px;
+
+      & > a {
+        border-bottom: 0.1px solid #60bb46;
       }
     }
   }

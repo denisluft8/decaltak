@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { HeaderSection, LiStyled, LogoImg, NavBar } from "./HeaderStyles";
 import logo from "../../assets/logo.svg";
-import logoinversa from "../../assets/logoinversa.svg";
 
 export const Header = () => {
   const [color, setColor] = useState(false);

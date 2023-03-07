@@ -1,5 +1,10 @@
 import styled from "styled-components";
 
+interface MapProps {
+  height: string;
+  width: string;
+}
+
 export const ContactDiv = styled.div`
   display: flex;
   flex-direction: column;
@@ -9,7 +14,11 @@ export const TextContact = styled.h3`
   width: 60%;
   align-self: center;
   text-align: center;
-  color: #fff;
+  color: #e3e3e3;
+
+  @media (max-width: 500px) {
+    width: 70%;
+  }
 `;
 
 export const Modal = styled.div`
@@ -24,6 +33,10 @@ export const Modal = styled.div`
     padding: 12px;
     width: 60%;
 
+    @media (max-width: 500px) {
+      width: 80%;
+    }
+
     & > input {
       border: 2px solid #60bb46;
       background-color: transparent;
@@ -37,10 +50,10 @@ export const Modal = styled.div`
     }
 
     & > :focus {
-      color: #fff;
+      color: #e3e3e3;
 
       &::placeholder {
-        color: #fff;
+        color: #e3e3e3;
       }
     }
 
@@ -91,6 +104,9 @@ export const RedesDiv = styled.div`
   display: flex;
   flex-direction: column;
   width: 70%;
+  @media (max-width: 500px) {
+    width: 80%;
+  }
 `;
 
 export const IconsDiv = styled.div`
@@ -104,16 +120,29 @@ export const IconsDiv = styled.div`
     padding: 6px;
     transition: 0.2s ease;
   }
+
+  @media (max-width: 500px) {
+    & > a > img {
+      width: 60px;
+    }
+  }
 `;
 
 export const MapDiv = styled.div`
   margin-top: 40px;
-  color: #fff;
+  color: #e3e3e3;
   width: 100%;
   border-top: 4px solid #60bb46;
   text-align: center;
 
   & > iframe {
     border: 4px solid #60bb46;
+    width: 570px;
+    height: 300px;
+
+    @media (max-width: 500px) {
+      width: auto;
+      height: auto;
+    }
   }
 `;

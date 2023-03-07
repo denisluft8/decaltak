@@ -8,6 +8,12 @@ export const GalleryWrap = styled.div`
   justify-content: center;
   margin: 0 auto;
   max-width: 90%;
+  @media (max-width: 500px) {
+    /* flex-wrap: nowrap; */
+    /* flex-direction: column; */
+    gap: 24px;
+    /* width: 100%; */
+  }
 `;
 
 export const SingleImg = styled.div`
@@ -22,8 +28,16 @@ export const SingleImg = styled.div`
 
   & > img:hover {
     transform: scale(1.02);
-    transition: .2s ease;
+    transition: 0.2s ease;
+  }
 
+  @media (max-width: 500px) {
+    width: 40%;
+    & > img {
+      border: solid 2px #60bb46;
+      border-radius: 2px;
+      max-width: 100%;
+    }
   }
 `;
 

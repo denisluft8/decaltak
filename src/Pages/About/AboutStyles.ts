@@ -6,10 +6,35 @@ export const AboutDiv = styled.div`
   padding: 12px;
   border-bottom: 5px solid #60bb46;
   border-right: 5px solid #60bb46;
+
+  @media (min-width: 1250px) {
+    width: 1000px;
+  }
+
+  @media (max-width: 700px) {
+    flex-direction: column;
+  }
 `;
 export const ImgDiv = styled.div`
+display: flex;
+justify-content: center;
   & > img {
     height: 300px;
+  }
+  @media (max-width: 380px) {
+    & > img {
+      height: 260px;
+    }
+  }
+  @media (max-width: 325px) {
+    & > img {
+      height: 230px;
+    }
+  }
+  @media (max-width: 560px) {
+    & > img {
+      height: 300px;
+    }
   }
 `;
 export const TextDiv = styled.div`

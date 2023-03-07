@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 21.979 22.743" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>.cls-1,.cls-2{fill:#fff;}.cls-2,.cls-3,.cls-4,.cls-5{fill-rule:evenodd;}.cls-6,.cls-4{fill:#b2b2b2;}.cls-3{fill:#60bb46;}.cls-7{fill:none;stroke:#b2b2b2;stroke-miterlimit:22.93;stroke-width:.22px;}.cls-5{fill:#7c7c7c;}</style>
+  </defs>
+  <g id="Layer_1-2">
+    <polygon class="cls-5" points="18.33 16.58 2.51 16.58 1.43 22.51 17.26 22.51 18.33 16.58"/>
+    <polygon class="cls-4" points="19.79 8.42 3.96 8.42 2.89 14.35 18.71 14.35 19.79 8.42"/>
+    <polygon class="cls-3" points="21.25 0 5.43 0 4.36 5.93 20.18 5.93 21.25 0"/>
+  </g>
+</svg>

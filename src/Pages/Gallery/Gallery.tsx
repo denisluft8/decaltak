@@ -57,7 +57,7 @@ export const Gallery = () => {
   ];
 
   return (
-    <Page height="fit-content" flexDir="column">
+    <Page id="gallery" height="fit-content" flexDir="column">
         <GH2>GALERIA</GH2>
         <GP>Veja alguns de nossos trabalhos:</GP>
       <GalleryDiv>

@@ -4,7 +4,7 @@ import fachada from "../../assets/fachada.png";
 
 export const About = () => {
   return (
-    <Page height="50%" bgColor="#e5e5e5">
+    <Page id="about" height="50%" bgColor="#e5e5e5">
       <AboutDiv>
         <ImgDiv>
           <img src={fachada} />

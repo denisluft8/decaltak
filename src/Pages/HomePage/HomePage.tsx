@@ -4,7 +4,7 @@ import { AgendeContainer, HomeContainer } from "./HomePageStyles";
 
 export const HomePage = () => {
   return (
-    <Page height={"50%"}>
+    <Page id="home" height={"50%"}>
       <HomeContainer>
         <Slider />
         <h1 style={{ visibility: "hidden" }}>Decaltak</h1>

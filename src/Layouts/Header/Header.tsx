@@ -18,17 +18,19 @@ export const Header = () => {
 
   return (
     <HeaderSection color={color ? " #31422Bd9" : "transparent"}>
-      <LogoImg src={color ? logo : logo} />
+      <a href="#home">
+        <LogoImg src={color ? logo : logo} />
+      </a>
       <NavBar color={color ? " #000" : "#fff"}>
         <ul>
           <LiStyled>
-            <a>SOBRE NÓS</a>
+            <a href="#about">SOBRE NÓS</a>
           </LiStyled>
           <LiStyled>
-            <a>TRABALHOS</a>
+            <a href="#gallery">TRABALHOS</a>
           </LiStyled>
           <LiStyled>
-            <a>CONTATO</a>
+            <a href="#contact">CONTATO</a>
           </LiStyled>
         </ul>
       </NavBar>

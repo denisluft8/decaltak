@@ -30,10 +30,18 @@ export const LiStyled = styled.li`
   border-bottom: 2px solid transparent;
 
   &:hover {
-    color: #60bb46;
-    cursor: pointer;
     border-bottom: 2px solid #60bb46;
     transition: 0.2s ease-in;
+  }
+
+  & > a {
+    text-decoration: none;
+    color: #fff;
+    &:hover {
+      color: #60bb46;
+      cursor: pointer;
+      transition: 0.2s ease-in;
+    }
   }
 `;
 

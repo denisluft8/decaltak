@@ -9,10 +9,14 @@ export const GlobalStyle = createGlobalStyle`
 margin: 0;
   padding: 0;
 }
+html{
+  min-height: 100%;
+}
 #root{
     height: 100vh;
 }
 body {
   background-color: #121214;
   font-family: 'Source Code Pro', monospace;
+  min-height: 100%;
 }`;

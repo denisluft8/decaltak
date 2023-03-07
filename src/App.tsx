@@ -1,4 +1,4 @@
-import { Layout } from "./Layouts";
+import { Layout } from "./Layouts/Layout";
 import { About, HomePage, Gallery, Contact } from "./Pages";
 import { GlobalStyle } from "./styles/globalStyles";
 

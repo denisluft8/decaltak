@@ -18,5 +18,10 @@ export const AgendeContainer = styled.div`
   & > h3 > a {
     color: #60bb46;
     border-bottom: 2px solid #60bb46;
+    
+    &:hover{
+      color: #4f9c39;
+      border-bottom: 2px solid #4f9c39;
+    }
   }
 `;

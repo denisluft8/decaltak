@@ -1,3 +1,4 @@
+import { About } from "./About/About";
 import { HomePage } from "./HomePage/HomePage";
 
-export { HomePage };
+export {About, HomePage };

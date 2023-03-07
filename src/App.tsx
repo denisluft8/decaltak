@@ -1,5 +1,5 @@
 import { Layout } from "./Layouts";
-import { HomePage } from "./Pages";
+import { About, HomePage } from "./Pages";
 import { GlobalStyle } from "./styles/globalStyles";
 
 function App() {
@@ -8,6 +8,7 @@ function App() {
       <GlobalStyle />
       <Layout>
         <HomePage />
+        <About />
       </Layout>
     </>
   );

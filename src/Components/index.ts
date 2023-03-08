@@ -1,3 +1,4 @@
 import { Slider } from "./Slider/Slider";
+import { BurguerMenu } from "./BurguerMenu/BurguerMenu";
 
-export { Slider };
+export {BurguerMenu, Slider };

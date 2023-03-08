@@ -1,10 +1,21 @@
 import styled from "styled-components";
+import { keyframes } from "styled-components";
 
 interface HeaderProps {
-  visibility?: string;
+  display?: string;
+  color?: string;
 }
 
-export const HeaderSection = styled.section`
+const menuShow = keyframes`
+0% {
+        width: 0px;
+      }
+      100% {
+        width: 80%;
+      }
+`;
+
+export const HeaderSection = styled.section<HeaderProps>`
   position: fixed;
   display: flex;
   justify-content: space-around;
@@ -15,6 +26,7 @@ export const HeaderSection = styled.section`
   padding: 8px;
   background: ${(props) => props.color};
   transition: 0.3s ease-in;
+  display: ${(props) => (props.display === "flex" ? "none" : "flex")};
   z-index: 1;
 
   @media (max-width: 500px) {
@@ -25,6 +37,11 @@ export const HeaderSection = styled.section`
     flex-direction: column;
     justify-content: flex-start;
     gap: 200px;
+    transition: width 0.35s ease-in-out;
+    animation-name: ${menuShow};
+    animation-duration: 0.5s;
+    display: ${(props) => props.display};
+    overflow: hidden;
   }
 `;
 
@@ -36,12 +53,13 @@ export const NavBar = styled.div`
     gap: 12px;
     list-style: none;
     font-weight: 900;
+    font-size: 12px;
   }
   @media (max-width: 500px) {
     & > ul {
       flex-direction: column;
       align-items: center;
-      font-size: 20px;
+      font-size: 16px;
     }
   }
 `;
@@ -69,8 +87,60 @@ export const LiStyled = styled.li`
 export const LogoImg = styled.img`
   height: 50px;
 
-  
   @media (max-width: 320px) {
     height: 45px;
+  }
+  @media (max-width: 500px) {
+    margin-top: 12px;
+  }
+`;
+
+interface BurguerProps {
+  transform1?: string;
+  transform2?: string;
+  opacity?: string;
+}
+
+export const BurguerContainer = styled.div`
+  display: none;
+  @media (max-width: 500px) {
+    display: inline-block;
+    cursor: pointer;
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin-top: 12px;
+    padding-right: 6px;
+    z-index: 2;
+  }
+`;
+export const Burguer1 = styled.div<BurguerProps>`
+  @media (max-width: 500px) {
+    width: 35px;
+    height: 5px;
+    background-color: #60bb46;
+    margin: 6px 0;
+    transition: 0.4s;
+    transform: ${(props) => props.transform1};
+  }
+`;
+export const Burguer2 = styled.div<BurguerProps>`
+  @media (max-width: 500px) {
+    width: 35px;
+    height: 5px;
+    background-color: #60bb46;
+    margin: 6px 0;
+    transition: 0.4s;
+    opacity: ${(props) => props.opacity};
+  }
+`;
+export const Burguer3 = styled.div<BurguerProps>`
+  @media (max-width: 500px) {
+    width: 35px;
+    height: 5px;
+    background-color: #60bb46;
+    margin: 6px 0;
+    transition: 0.4s;
+    transform: ${(props) => props.transform1};
   }
 `;

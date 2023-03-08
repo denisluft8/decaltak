@@ -18,6 +18,8 @@ export const FooterSec = styled.section`
     padding-left: 12px;
     text-align: center;
     color: #e3e3e3;
+    line-height: 16px;
+
 
     @media (max-width: 500px) {
       font-size: 12px;
@@ -29,6 +31,7 @@ export const FooterSec = styled.section`
     padding-right: 12px;
     text-align: end;
     color: #e3e3e3;
+    line-height: 12px;
 
     & > a {
       text-decoration: none;
@@ -38,8 +41,12 @@ export const FooterSec = styled.section`
         color: #60bb46;
       }
     }
+    @media (min-width: 370px) {
+
+    }
     @media (max-width: 500px) {
       font-size: 10px;
+      white-space: nowrap;
 
       & > a {
         border-bottom: 0.1px solid #60bb46;

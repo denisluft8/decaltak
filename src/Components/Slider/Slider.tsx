@@ -1,12 +1,13 @@
 import { useState, useEffect } from "react";
 import { Slide, SliderContainer, SlideShowSlider } from "./SliderStyles";
+import { slider1, slider2, slider3, slider4, slider5 } from "../../assets";
 
 const sliderImg = [
-  { img: "src/assets/slider1.png" },
-  { img: "src/assets/slider2.png" },
-  { img: "src/assets/slider3.png" },
-  { img: "src/assets/slider4.png" },
-  { img: "src/assets/slider5.png" },
+  { img: slider1 },
+  { img: slider2 },
+  { img: slider3 },
+  { img: slider4 },
+  { img: slider5 },
 ];
 const delay = 10000;
 

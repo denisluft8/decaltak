@@ -6,3 +6,5 @@ export default defineConfig({
   base: "/decaltak/",
   plugins: [react()],
 })
+
+

@@ -18,7 +18,7 @@ export const Contact = () => {
       <Page id="contact" flexDir="column" height="fit-content">
         <ContactDiv>
           <TextContact>
-            Nos mande uma mensagem abaixo que assim que possivel responderemos.
+            Mande uma mensagem abaixo que assim que possível responderemos.
           </TextContact>
           <Modal>
             <form>

@@ -11,29 +11,30 @@ export const AboutDiv = styled.div`
     width: 1000px;
   }
 
-  @media (max-width: 700px) {
+  @media (max-width: 770px) {
     flex-direction: column;
   }
 `;
 export const ImgDiv = styled.div`
 display: flex;
 justify-content: center;
+align-items: center;
   & > img {
     height: 300px;
   }
   @media (max-width: 380px) {
     & > img {
-      height: 260px;
+      max-height: 200px;
     }
   }
   @media (max-width: 325px) {
     & > img {
-      height: 230px;
+      max-height: 180px;
     }
   }
   @media (max-width: 560px) {
     & > img {
-      height: 300px;
+      height: 240px;
     }
   }
 `;

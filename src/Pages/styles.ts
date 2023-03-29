@@ -15,7 +15,7 @@ export const Page = styled.section<SectionProps>`
   padding: 52px 0px;
   height: ${(props) => (props.height ? props.height : "100%")};
 
-  @media (max-width: 700px) {
+  @media (max-width: 768px) {
     height: fit-content;
     flex-direction: column;
     align-items: center;

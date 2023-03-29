@@ -12,13 +12,16 @@ export const About = () => {
         <TextDiv>
           <h2>Quem somos nós:</h2>
           <p>
-            Fundada oficialmente em 2013, a Decaltak é uma empresa familiar
-            gaúcha de comunicação visual conhecida por oferecer um “um trabalho
-            de alta qualidade”. A empresa tem uma equipe de funcionários
-            qualificados , onde executam projetos inovadores, dinâmicos e
-            totalmente personalizados. Excelência e criatividade são premissas
-            obrigatórias em cada projeto executado pela equipe da Decaltak , que
-            acumula em seu portfólio inúmeros cases de sucesso.
+            A Decaltak é uma empresa de comunicação visual com sede no Rio
+            Grande do Sul, fundada em 2013 por uma família empreendedora. Seu
+            compromisso com a qualidade é amplamente reconhecido, e a empresa é
+            conhecida por fornecer serviços personalizados e inovadores de alta
+            qualidade. Com uma equipe altamente qualificada, a Decaltak oferece
+            soluções criativas e dinâmicas que atendem às necessidades de seus
+            clientes. A excelência é a palavra de ordem em cada projeto
+            executado, e a empresa tem um portfólio impressionante de casos de
+            sucesso que demonstram sua capacidade de entregar resultados
+            excepcionais.
           </p>
         </TextDiv>
       </AboutDiv>
